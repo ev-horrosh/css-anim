@@ -1,0 +1,15 @@
+body{
+    background-color:#2580b5;
+    
+}
+
+#bird{
+    background: transparent url(spritesheet.png) 0 0 no-repeat;
+    width: 2226px;
+    height: 1668px;
+}
+
+@-webkit-keyframes blink{
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -8340px;}
+}
